@@ -11,7 +11,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  swap_array = array.slice(1,2)
+  swap_array = array.slice!(1,2)
   swap_array.rotate!(1)
   array << swap_array
 end
