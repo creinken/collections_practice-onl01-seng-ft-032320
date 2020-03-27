@@ -12,9 +12,7 @@ end
 
 def swap_elements(array)
   swap_array = array.slice(1,2)
-  puts swap_array
   array[0] << swap_array.rotate
-  puts array
 end
 
 def reverse_array(integers)
@@ -42,4 +40,4 @@ def add_s(strings)
   
 end
 
-swap_elements(["blake", "ashley", "scott"])
+# swap_elements(["blake", "ashley", "scott"])
