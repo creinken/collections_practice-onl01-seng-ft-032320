@@ -49,5 +49,3 @@ end
 def add_s(strings)
   
 end
-
-# swap_elements(["blake", "ashley", "scott"])
