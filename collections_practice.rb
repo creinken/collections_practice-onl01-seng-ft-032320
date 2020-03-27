@@ -22,4 +22,14 @@ def kesha_maker(strings)
   
 end
 
-def find_a()
+def find_a(strings)
+  
+end
+
+def sum_array(integers)
+  
+end
+
+def add_s(strings)
+  
+end
