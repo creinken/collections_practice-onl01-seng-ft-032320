@@ -47,5 +47,14 @@ def sum_array(integers)
 end
 
 def add_s(strings)
-  
+  return_array = []
+  strings.each_with_index do |word, idx|
+    if idx != 1
+      word += "s"
+      return_array << word
+    else
+      return_array << word
+    end
+  end
+  return_array
 end
