@@ -24,6 +24,7 @@ def kesha_maker(strings)
     word_array = word.chars
     word_array[2] = "$"
     word_array.join("")
+  end
 end
 
 def find_a(strings)
