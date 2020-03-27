@@ -12,8 +12,7 @@ end
 
 def swap_elements(array)
   swap_array = array.slice!(1,2)
-  swap_array.rotate!(1)
-  array << swap_array
+  array << swap_array.rotate!(1)
 end
 
 def reverse_array(integers)
