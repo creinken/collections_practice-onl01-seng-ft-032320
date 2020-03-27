@@ -14,3 +14,12 @@ def swap_elements(array)
   
 end
 
+def reverse_array(integers)
+  
+end
+
+def kesha_maker(strings)
+  
+end
+
+def find_a()
