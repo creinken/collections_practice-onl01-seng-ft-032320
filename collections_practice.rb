@@ -1,5 +1,5 @@
 def sort_array_asc(integers)
-
+Build a method sort_array_asc that takes in an array of integers and returns a copy of the array with the integers in ascending order.
 end
 
 def sort_array_desc(integers)
