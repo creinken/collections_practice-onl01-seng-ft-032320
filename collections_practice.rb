@@ -41,7 +41,9 @@ def find_a(strings)
 end
 
 def sum_array(integers)
-  
+  final_sum = 0
+  integers.each { |integer| final_sum += integer}
+  final_sum
 end
 
 def add_s(strings)
