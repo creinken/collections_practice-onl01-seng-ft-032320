@@ -3,7 +3,7 @@ Build a method sort_array_asc that takes in an array of integers and returns a c
 end
 
 def sort_array_desc(integers)
-  
+  Build a method sort_array_desc that takes in an array of integers and returns a copy of the array with the integers in descending order. Remember that .sort takes a block in which you can specify how you want your array sorted.
 end
 
 def sort_array_char_count(array)
