@@ -19,7 +19,11 @@ def reverse_array(integers)
 end
 
 def kesha_maker(strings)
-  strings.collect{ |word| word[2]="$" }
+  word_array = []
+  strings.collect do |word| 
+    word_array = word.chars
+    word_array[2] = "$"
+    word_array.join("")
 end
 
 def find_a(strings)
